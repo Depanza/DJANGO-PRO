@@ -1,0 +1,50 @@
+body{
+    border: 5px solid;
+    margin: 10px;
+}
+
+#box1{
+    color: rgb(17, 17, 16);
+    font-family: monospace, sans-serif, 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 10px;
+    border: 5px solid;
+    height: 300px;
+    width: 300px;
+    background: rgb(64, 209, 245);
+
+    padding: 50px;
+
+ /*   margin-right: auto; push/sticks div element to te right of the screen*/
+
+ /* combining margin-right and margin-left sticks the div elemnts to the center of the screen*/
+
+    
+}
+
+/* Use '#' to select id (eg. #box2, and . to select class (eg .even)*/
+
+#box2{
+    color: rgb(214, 214, 176);
+    font-family: sans-serif, 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 10px;
+    border: 5px solid;
+    height: 300px;
+    width: 300px;
+    background: rgb(73, 81, 105);
+
+    padding: 50px;
+
+ /*   margin-left: auto; push/sticks div element ot the left of the screen*/
+    
+}
+
+.odd{
+  color: gold;  
+}
+.even{
+    color: green;
+}
